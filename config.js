@@ -9,7 +9,7 @@ module.exports = {
         presence: "play.astromc.online", //Custom activity/status text
         status: "ONLINE",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
         activity: "PLAYING", //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
-        guildID: "1078639479599943700", //Your Discord server guild ID
+        guildID: "1462453991219921172", //Your Discord server guild ID
     },
 
     //Your Minecraft server data
@@ -18,7 +18,7 @@ module.exports = {
         type: "Java", //"java" or "bedrock"
         ip: "play.astromc.online", //IP of your server - do not include port - e.g. "mc.hypixel.net"
         port: "19131", //PORT of your server - empty => default port (JA 25565, BE 19132)
-        icon: "https://cdn.discordapp.com/attachments/1048892881752039434/1076579603772088381/Logo-2.png", //Link to icon - like "https://website.com/icon.png"
+        icon: "https://cdn.discordapp.com/icons/1454810843987574849/d5dbad02fd8d41fb74ebb7a8c2cff644.png", //Link to icon - like "https://website.com/icon.png"
         version: "1.8.x-1.21.x", //Minecraft version of sever
         vote: "" //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
