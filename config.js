@@ -6,7 +6,7 @@ module.exports = {
     bot: {
         //PASTE YOUR DISCORD BOT TOKEN IN DATA.JSON FILE (more secure) - https://tinyurl.com/discordbot-token
         prefix: ".", //Your custom prefix of the bot, like "!" or "."
-        presence: "Mini Universe", //Custom activity/status text
+        presence: "play.astromc.online", //Custom activity/status text
         status: "ONLINE",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
         activity: "PLAYING", //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
         guildID: "1078639479599943700", //Your Discord server guild ID
@@ -14,12 +14,12 @@ module.exports = {
 
     //Your Minecraft server data
     server: {
-        name: "Mini Universe", //Your server name
+        name: "Astro MC", //Your server name
         type: "Java", //"java" or "bedrock"
-        ip: "miniuniverse.fun", //IP of your server - do not include port - e.g. "mc.hypixel.net"
-        port: "", //PORT of your server - empty => default port (JA 25565, BE 19132)
+        ip: "play.astromc.online", //IP of your server - do not include port - e.g. "mc.hypixel.net"
+        port: "19131", //PORT of your server - empty => default port (JA 25565, BE 19132)
         icon: "https://cdn.discordapp.com/attachments/1048892881752039434/1076579603772088381/Logo-2.png", //Link to icon - like "https://website.com/icon.png"
-        version: "1.8.x-1.19.x", //Minecraft version of sever
+        version: "1.8.x-1.21.x", //Minecraft version of sever
         vote: "" //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
 
